@@ -9,11 +9,6 @@ import (
 	p "github.com/whxaxes/go-proxy/proxy"
 )
 
-type ArgvInfo struct {
-	port string
-	dest string
-}
-
 func main() {
 	app := &cli.App{
 		Name:  "go-proxy",
